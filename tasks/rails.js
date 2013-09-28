@@ -16,8 +16,6 @@ module.exports = function(grunt) {
   // Please see the Grunt documentation for more information regarding task
   // creation: http://gruntjs.com/creating-tasks
 
-  grunt.loadNpmTasks('grunt-shell');
-
   // grunt.registerTask('rails:server:restart', ['rails:server:kill', 'rails:server:start']);
 
   var _pidFile = "tmp/pids/server.pid";
