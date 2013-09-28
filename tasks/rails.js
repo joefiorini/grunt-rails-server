@@ -1,6 +1,6 @@
 /*
- * grunt-rails
- * https://github.com/joefiorini/grunt-rails
+ * grunt-rails-server
+ * https://github.com/joefiorini/grunt-rails-server
  *
  * Copyright (c) 2013 Joe Fiorini
  * Licensed under the MIT license.
