@@ -34,9 +34,12 @@
     "grunt": "~0.4.1"
   },
   "peerDependencies": {
-    "grunt": "~0.4.1"
+    "grunt": "~0.4.1",
+    "grunt-shell-spawn": "~0.2.4"
   },
   "keywords": [
     "gruntplugin"
-  ]
+  ],
+  "dependencies": {
+  }
 }
