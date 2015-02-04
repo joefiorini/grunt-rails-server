@@ -1,4 +1,4 @@
-# grunt-rails
+# grunt-rails-server
 
 > Control your Rails server via Grunt
 
@@ -8,13 +8,13 @@ This plugin requires Grunt `~0.4.1`
 If you haven't used [Grunt](http://gruntjs.com/) before, be sure to check out the [Getting Started](http://gruntjs.com/getting-started) guide, as it explains how to create a [Gruntfile](http://gruntjs.com/sample-gruntfile) as well as install and use Grunt plugins. Once you're familiar with that process, you may install this plugin with this command:
 
 ```shell
-npm install grunt-rails --save-dev
+npm install grunt-rails-server --save-dev
 ```
 
 Once the plugin has been installed, it may be enabled inside your Gruntfile with this line of JavaScript:
 
 ```js
-grunt.loadNpmTasks('grunt-rails');
+grunt.loadNpmTasks('grunt-rails-server');
 ```
 
 ## The "rails" task
@@ -37,17 +37,29 @@ grunt.initConfig({
 
 ### Options
 
-#### options.separator
+#### separator
 Type: `String`
 Default value: `',  '`
 
 A string value that is used to do something with whatever.
 
-#### options.punctuation
+#### punctuation
 Type: `String`
 Default value: `'.'`
 
 A string value that is used to do something else with whatever else.
+
+#### port
+Type: `Integer`
+Default value: null
+
+An integer for the port for the Rails server to use.
+
+#### environment
+Type: `String`
+Default value: null
+
+A string specifying the environment for the server to run as.
 
 ### Usage Examples
 
